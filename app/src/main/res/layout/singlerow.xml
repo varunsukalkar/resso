@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#F9F9F9">
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop" />
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="190dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/songname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="song name"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/singername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="song name"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+
+
+            />
+
+
+
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+  android:layout_alignParentBottom="true"
+    android:layout_marginBottom="140dp"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="40dp"
+        android:src="@drawable/baseline_pause_24"
+        android:layout_height="40dp"
+        android:id="@+id/play"/>
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="100dp"
+    android:layout_height="wrap_content"
+
+    >
+
+    <ImageView
+
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/whiteheart"
+        android:layout_marginRight="20dp"
+        android:id="@+id/heart"/>
+    <ImageView
+
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:layout_marginRight="20dp"
+        android:src="@drawable/baseline_mode_comment_24"
+       />
+    <ImageView
+
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:src="@drawable/baseline_share_24"
+      />
+
+
+</LinearLayout>
+
+
+</RelativeLayout>
